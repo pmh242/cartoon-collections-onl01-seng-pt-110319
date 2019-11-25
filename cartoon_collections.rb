@@ -1,10 +1,3 @@
-def roll_call_dwarves(dwarves)
-  dwarves = ["Doc", "Dopey", "Grumpy", "Bashful"]
-  dwarves.each_with_index do |dwarf, i|
-    puts "#{i} #{dwarf}"
-  end
-end
-
 def roll_call_dwarves(array)
   i = 0 
   while i < array.length 
