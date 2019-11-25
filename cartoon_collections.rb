@@ -20,7 +20,7 @@ def long_planeteer_calls(array)
   i = 0
   if array.any? {|i| i.length > 4}
     return true
-  else array.any? {|i| i.length > 4}
+  else array.any? {|i| i.length < 4}
     return false
   end
 end
