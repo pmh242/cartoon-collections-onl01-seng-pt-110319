@@ -16,8 +16,11 @@ def summon_captain_planet(array)
   nu_array
 end
 
-def long_planeteer_calls
+def long_planeteer_calls(array)
+  i = 0
+  while i < array.length
   
+  end
 end
 
 def find_the_cheese# code an argument here
