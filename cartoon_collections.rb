@@ -7,13 +7,6 @@ def roll_call_dwarves(array)
 end
 
 def summon_captain_planet(array)
-  array = ["apple", "banana", "orange"]
-  array.collect do |fruit|
-    fruit.capitalize + "!"
-  end
-end
-
-def summon_captain_planet(array)
   nu_array = []
   i = 0 
   while i < array.length
