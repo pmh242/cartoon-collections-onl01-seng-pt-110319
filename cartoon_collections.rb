@@ -1,15 +1,15 @@
 def roll_call_dwarves(dwarves)
-  dwarves = []
+  dwarves = ["Doc", "Dopey", "Grumpy", "Bashful"]
   dwarves.each_with_index do |dwarf, i|
     puts "#{i} #{dwarf}"
-    
   end
-  
-  
 end
 
-def summon_captain_planet# code an argument here
-  # Your code here
+def summon_captain_planet(array)
+  array = ["apple", "banana", "orange"]
+  array.collect do |fruit|
+    fruit.capitalize + "!"
+  end
 end
 
 def long_planeteer_calls# code an argument here
